@@ -38,8 +38,6 @@ class Assignment2:
             return False
         s.close()
         return True
-a = Assignment2(2)
-a.tellBirthYear(1999)
 
 
 
