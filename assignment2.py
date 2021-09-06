@@ -6,12 +6,12 @@ class Assignment2:
         
     def tellBirthYear(self, currentYear: int):
         birthYear = currentYear - self.age
-        print("Your birth year is " + birthYear)
+        print("Your birth year is " + str(birthYear))
 
     def listAnniversaries(self, n: int):
         anniversaries = []
         year = n
-        while year < self.age:
+        while year <= self.age:
             anniversaries.append(year)
             year += n
         return anniversaries
@@ -38,8 +38,8 @@ class Assignment2:
             return False
         s.close()
         return True
-
-
+a = Assignment2(2)
+a.tellBirthYear(1999)
 
 
 
