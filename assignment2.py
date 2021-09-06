@@ -11,7 +11,7 @@ class Assignment2:
     def listAnniversaries(self, n: int):
         anniversaries = []
         year = n
-        while year <= self.age:
+        while year < self.age:
             anniversaries.append(year)
             year += n
         return anniversaries
